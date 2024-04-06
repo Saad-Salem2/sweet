@@ -422,16 +422,39 @@ font-weight: 400;
             padding: 10px 10px;
         }
     }
-    @media screen and (max-width:991px) {
-        .main-feed{
-            width: 100%;
-        }
+@media screen and (max-width:400px) {
+    .side-feed{
+     margin-left: 
+     50px;
+       
+
     }
-@media screen and (max-width:528px) {
-    .main-flex{
-        width: ;
+    .main-feed{
+       
     }
- .shadow {
-    padding-bottom: 10px;
- }   
+.feed-tweet{
+    
 }
+header{
+    width: 90px;
+}
+}
+@media (max-width:700px) {
+    .new-tweet-action   {
+display: flex;
+flex-direction: column;
+margin-bottom: 25px;
+    }
+    .follow{
+        height: 280px;
+    }
+    .follow .follow-profile .follow-date
+    {
+        margin-left: 6px;
+    }
+    
+    
+    
+}
+
+
