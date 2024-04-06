@@ -243,7 +243,7 @@ main{
     margin: 15px -8px 0;
 }
 .side-feed{
-    width: 50%;
+
     padding: 0 2%;
 }
 .search input{
@@ -422,21 +422,22 @@ font-weight: 400;
             padding: 10px 10px;
         }
     }
-@media screen and (max-width:400px) {
+@media (max-width:400px) {
     .side-feed{
      margin-left: 
      50px;
-       
-
     }
     .main-feed{
-       
+        width: 80px;
     }
-.feed-tweet{
+
+.feed-tweet .feed-tweet-date .tweet-text p{
+    margin-bottom: 0;
     
 }
 header{
     width: 90px;
+
 }
 }
 @media (max-width:700px) {
@@ -453,8 +454,8 @@ margin-bottom: 25px;
         margin-left: 6px;
     }
     
-    
-    
+    .feed-tweet .feed-tweet-date .tweet-icons{
+margin-top: 0;
+
+    }
 }
-
-
