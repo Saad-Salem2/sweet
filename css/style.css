@@ -136,7 +136,12 @@ main{
 
 }
 
- .sweet-img
+
+
+
+
+
+.sweet-img
 {
     height: 48px;
     width: 48px;
@@ -428,7 +433,7 @@ font-weight: 400;
      50px;
     }
     .main-feed{
-        width: 80px;
+        width: 40%;
     }
 
 .feed-tweet .feed-tweet-date .tweet-text p{
